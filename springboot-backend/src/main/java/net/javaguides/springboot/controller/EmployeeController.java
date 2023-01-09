@@ -20,7 +20,7 @@ import net.javaguides.springboot.exception.ResourceNotFoundException;
 import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "https://vnpt-backend.herokuapp.com")
+@CrossOrigin(origins = "http://vnpt-backend.herokuapp.com")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
