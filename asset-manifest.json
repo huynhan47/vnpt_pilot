@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vnpt_pilot/static/css/main.e2bc9fc6.chunk.css",
+    "main.js": "/vnpt_pilot/static/js/main.a6a84439.chunk.js",
+    "main.js.map": "/vnpt_pilot/static/js/main.a6a84439.chunk.js.map",
+    "runtime-main.js": "/vnpt_pilot/static/js/runtime-main.101b1500.js",
+    "runtime-main.js.map": "/vnpt_pilot/static/js/runtime-main.101b1500.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/vnpt_pilot/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.adf17f9f.chunk.js": "/vnpt_pilot/static/js/2.adf17f9f.chunk.js",
+    "static/js/2.adf17f9f.chunk.js.map": "/vnpt_pilot/static/js/2.adf17f9f.chunk.js.map",
+    "index.html": "/vnpt_pilot/index.html",
+    "precache-manifest.4da31394fbbb70b85513750eff926966.js": "/vnpt_pilot/precache-manifest.4da31394fbbb70b85513750eff926966.js",
+    "service-worker.js": "/vnpt_pilot/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/vnpt_pilot/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.e2bc9fc6.chunk.css.map": "/vnpt_pilot/static/css/main.e2bc9fc6.chunk.css.map",
+    "static/js/2.adf17f9f.chunk.js.LICENSE.txt": "/vnpt_pilot/static/js/2.adf17f9f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/vnpt_pilot/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.101b1500.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.adf17f9f.chunk.js",
+    "static/css/main.e2bc9fc6.chunk.css",
+    "static/js/main.a6a84439.chunk.js"
+  ]
+}
