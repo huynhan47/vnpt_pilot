@@ -1,27 +1,58 @@
 import axios from 'axios';
 
+// const EMPLOYEE_API_BASE_URL = "https://cors-anywhere.herokuapp.com/https://vnpt-backend.herokuapp.com/api/v1/employees";
 const EMPLOYEE_API_BASE_URL = "https://vnpt-backend.herokuapp.com/api/v1/employees";
-
 class EmployeeService {
 
     getEmployees(){
-        return axios.get(EMPLOYEE_API_BASE_URL);
+        var config = {
+            
+            headers: {
+                'Content-Type': "application/json",
+                'Access-Control-Allow-Origin': '*'
+            }
+        };
+        return axios.get('/employees', config);
     }
 
     createEmployee(employee){
-        return axios.post(EMPLOYEE_API_BASE_URL, employee);
+        var config = {
+            headers: {
+                'Content-Type': "application/json",
+                'Access-Control-Allow-Origin': '*'
+            }
+        };
+        return axios.post('/employees', employee, config);
     }
 
     getEmployeeById(employeeId){
-        return axios.get(EMPLOYEE_API_BASE_URL + '/' + employeeId);
+        var config = {
+            headers: {
+                'Content-Type': "application/json",
+                'Access-Control-Allow-Origin': '*'
+            }
+        };
+        return axios.get('/employees' + '/' + employeeId, config);
     }
 
     updateEmployee(employee, employeeId){
-        return axios.put(EMPLOYEE_API_BASE_URL + '/' + employeeId, employee);
+        var config = {
+            headers: {
+                'Content-Type': "application/json",
+                'Access-Control-Allow-Origin': '*'
+            }
+        };
+        return axios.put('/employees' + '/' + employeeId, employee, config);
     }
 
     deleteEmployee(employeeId){
-        return axios.delete(EMPLOYEE_API_BASE_URL + '/' + employeeId);
+        var config = {
+            headers: {
+                'Content-Type': "application/json",
+                'Access-Control-Allow-Origin': '*'
+            }
+        };
+        return axios.delete('/employees' + '/' + employeeId, config);
     }
 }
 
