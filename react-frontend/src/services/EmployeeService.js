@@ -12,7 +12,7 @@ class EmployeeService {
                 'Access-Control-Allow-Origin': '*'
             }
         };
-        return axios.get('/employees', config);
+        return axios.get(EMPLOYEE_API_BASE_URL, config);
     }
 
     createEmployee(employee){
@@ -22,7 +22,7 @@ class EmployeeService {
                 'Access-Control-Allow-Origin': '*'
             }
         };
-        return axios.post('/employees', employee, config);
+        return axios.post(EMPLOYEE_API_BASE_URL, employee, config);
     }
 
     getEmployeeById(employeeId){
@@ -32,7 +32,7 @@ class EmployeeService {
                 'Access-Control-Allow-Origin': '*'
             }
         };
-        return axios.get('/employees' + '/' + employeeId, config);
+        return axios.get(EMPLOYEE_API_BASE_URL + '/' + employeeId, config);
     }
 
     updateEmployee(employee, employeeId){
@@ -42,7 +42,7 @@ class EmployeeService {
                 'Access-Control-Allow-Origin': '*'
             }
         };
-        return axios.put('/employees' + '/' + employeeId, employee, config);
+        return axios.put(EMPLOYEE_API_BASE_URL + '/' + employeeId, employee, config);
     }
 
     deleteEmployee(employeeId){
@@ -52,7 +52,7 @@ class EmployeeService {
                 'Access-Control-Allow-Origin': '*'
             }
         };
-        return axios.delete('/employees' + '/' + employeeId, config);
+        return axios.delete(EMPLOYEE_API_BASE_URL + '/' + employeeId, config);
     }
 }
 

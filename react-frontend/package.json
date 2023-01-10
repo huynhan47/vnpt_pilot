@@ -1,6 +1,5 @@
 {
   "homepage": "https://huynhan47.github.io/vnpt_pilot",
-  "proxy": "https://vnpt-backend.herokuapp.com/api/v1",
   "name": "react-frontend",
   "version": "0.1.0",
   "private": true,
