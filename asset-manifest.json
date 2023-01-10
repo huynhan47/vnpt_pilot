@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vnpt_pilot/static/css/main.d14498c7.css",
-    "main.js": "/vnpt_pilot/static/js/main.69ce581b.js",
+    "main.js": "/vnpt_pilot/static/js/main.652e95de.js",
     "index.html": "/vnpt_pilot/index.html",
     "main.d14498c7.css.map": "/vnpt_pilot/static/css/main.d14498c7.css.map",
-    "main.69ce581b.js.map": "/vnpt_pilot/static/js/main.69ce581b.js.map"
+    "main.652e95de.js.map": "/vnpt_pilot/static/js/main.652e95de.js.map"
   },
   "entrypoints": [
     "static/css/main.d14498c7.css",
-    "static/js/main.69ce581b.js"
+    "static/js/main.652e95de.js"
   ]
 }
